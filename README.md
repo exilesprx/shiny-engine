@@ -10,3 +10,7 @@
 #### Install certs on haproxy
 - mount the share certificates volume
 - copy the files over to the haproxy certs directory
+
+
+#### PEM file
+- example: `cat private/garuda.lan.key issued/garuda.lan.crt ca.crt >> garuda.pem`
